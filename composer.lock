@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2847b4b7e8b842d37b4ac73db4fc12f7",
+    "content-hash": "12a3958cfa1d7a42be0b7214b3af84e5",
     "packages": [
         {
             "name": "api-skeletons/doctrine-orm-hydration-module",
@@ -1613,16 +1613,16 @@
         },
         {
             "name": "laminas-api-tools/api-tools-rest",
-            "version": "1.6.0",
+            "version": "1.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas-api-tools/api-tools-rest.git",
-                "reference": "fdbffb96d244bee5404b7e9dc59d00919bb99b33"
+                "reference": "c6c4e16ff2eb9a25d5aa10318c4363f7c560a46b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas-api-tools/api-tools-rest/zipball/fdbffb96d244bee5404b7e9dc59d00919bb99b33",
-                "reference": "fdbffb96d244bee5404b7e9dc59d00919bb99b33",
+                "url": "https://api.github.com/repos/laminas-api-tools/api-tools-rest/zipball/c6c4e16ff2eb9a25d5aa10318c4363f7c560a46b",
+                "reference": "c6c4e16ff2eb9a25d5aa10318c4363f7c560a46b",
                 "shasum": ""
             },
             "require": {
@@ -1690,7 +1690,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2021-06-21T16:39:22+00:00"
+            "time": "2022-04-19T21:49:13+00:00"
         },
         {
             "name": "laminas-api-tools/api-tools-rpc",

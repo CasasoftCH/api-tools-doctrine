@@ -41,7 +41,7 @@
     "require": {
         "php": "^7.3 || ~8.0.0",
         "laminas-api-tools/api-tools": "1.6.0",
-        "laminas-api-tools/api-tools-rest": "1.6.0",
+        "laminas-api-tools/api-tools-rest": "1.6.2",
         "laminas/laminas-hydrator": "4.4.0",
         "laminas/laminas-stdlib": "^3.3",
         "laminas/laminas-view": "^2.11.3",
@@ -97,7 +97,6 @@
         "test": "phpunit --colors=always",
         "test-coverage": "phpunit --colors=always --coverage-clover clover.xml"
     },
-    "minimum-stability": "dev",
     "replace": {
         "zfcampus/zf-apigility-doctrine": "^2.3.0"
     }
