@@ -19,7 +19,7 @@ use Laminas\InputFilter\InputFilterInterface;
 use Laminas\InputFilter\InputInterface;
 use Laminas\ServiceManager\ServiceLocatorInterface;
 use Laminas\Stdlib\ArrayObject;
-use Phpro\DoctrineHydrationModule\Service\DoctrineHydratorFactory;
+use ApiSkeletons\DoctrineORMHydrationModule\Service\DoctrineHydratorFactory;
 use Traversable;
 
 use function array_key_exists;
