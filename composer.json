@@ -97,6 +97,7 @@
         "test": "phpunit --colors=always",
         "test-coverage": "phpunit --colors=always --coverage-clover clover.xml"
     },
+    "minimum-stability": "RC",
     "replace": {
         "zfcampus/zf-apigility-doctrine": "^2.3.0"
     }
