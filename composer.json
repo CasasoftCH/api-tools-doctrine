@@ -17,9 +17,6 @@
         "chat": "https://laminas.dev/chat",
         "forum": "https://discourse.laminas.dev"
     },
-    "config": {
-        "sort-packages": true
-    },
     "repositories": [
         {
             "type": "vcs",
@@ -27,6 +24,9 @@
             "no-api": true
         }
     ],
+    "config": {
+        "sort-packages": true
+    },
     "extra": {
         "laminas": {
             "module": [
