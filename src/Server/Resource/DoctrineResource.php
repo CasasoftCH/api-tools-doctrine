@@ -297,22 +297,20 @@ class DoctrineResource extends AbstractResourceListener implements
     /**
      * @return $this
      */
-    public function setHydrator(HydratorInterface $hydrator)
+    public function setHydrator(HydratorInterface $hydrator): void
     {
         $this->hydrator = $hydrator;
-
-        return $this;
     }
 
     /**
      * @return HydratorInterface
      */
-    public function getHydrator()
+    public function getHydrator(): ?HydratorInterface
     {
-        if (! $this->hydrator) {
-            // FIXME: find a way to test this line from a created API.  Shouldn't all created API's have a hydrator?
-            $this->hydrator = new Hydrator\DoctrineObject($this->getObjectManager(), $this->getEntityClass());
-        }
+        // if (! $this->hydrator) {
+        //     // FIXME: find a way to test this line from a created API.  Shouldn't all created API's have a hydrator?
+        //     $this->hydrator = new Hydrator\DoctrineObject($this->getObjectManager(), $this->getEntityClass());
+        // }
 
         return $this->hydrator;
     }
