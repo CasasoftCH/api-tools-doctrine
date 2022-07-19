@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Laminas\ApiTools\Doctrine\Server\Query\CreateFilter;
 
-use Doctrine\Common\Persistence\ObjectManager;
+use Doctrine\Persistence\ObjectManager;
 use DoctrineModule\Persistence\ObjectManagerAwareInterface;
 use Laminas\ApiTools\Rest\ResourceEvent;
 
@@ -25,7 +25,7 @@ abstract class AbstractCreateFilter implements ObjectManagerAwareInterface, Quer
      *
      * @return void
      */
-    public function setObjectManager(ObjectManager $objectManager)
+    public function setObjectManager(ObjectManager $objectManager): void
     {
         $this->objectManager = $objectManager;
     }
@@ -35,7 +35,7 @@ abstract class AbstractCreateFilter implements ObjectManagerAwareInterface, Quer
      *
      * @return ObjectManager
      */
-    public function getObjectManager()
+    public function getObjectManager(): ObjectManager
     {
         return $this->objectManager;
     }

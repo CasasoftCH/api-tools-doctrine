@@ -6,7 +6,7 @@ namespace Laminas\ApiTools\Doctrine\Admin\Model;
 
 use Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory;
 use Doctrine\Common\Persistence\Mapping\ClassMetadata;
-use Doctrine\Common\Persistence\ObjectManager;
+use Doctrine\Persistence\ObjectManager;
 use Laminas\ApiTools\Admin\Model\AbstractAutodiscoveryModel;
 
 use function strrpos;

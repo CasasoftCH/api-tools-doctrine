@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Laminas\ApiTools\Doctrine\Server\Resource;
 
 use Doctrine\Common\Collections\ArrayCollection;
-use Doctrine\Common\Persistence\ObjectManager;
+use Doctrine\Persistence\ObjectManager;
 use Doctrine\Instantiator\InstantiatorInterface;
 use Doctrine\ODM\MongoDB\Query\Builder as MongoDBQueryBuilder;
 use Doctrine\ORM\EntityManagerInterface;
@@ -162,7 +162,7 @@ class DoctrineResource extends AbstractResourceListener implements
      *
      * @return void
      */
-    public function setObjectManager(ObjectManager $objectManager)
+    public function setObjectManager(ObjectManager $objectManager): void
     {
         $this->objectManager = $objectManager;
     }
@@ -170,9 +170,9 @@ class DoctrineResource extends AbstractResourceListener implements
     /**
      * Get the object manager
      *
-     * @return ObjectManager|EntityManagerInterface
+     * @return ObjectManager
      */
-    public function getObjectManager()
+    public function getObjectManager(): ObjectManager
     {
         return $this->objectManager;
     }
